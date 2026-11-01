@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hook,DejaVu Sans,84,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,7,3,2,80,80,430,1
+Style: Top,DejaVu Sans,46,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,8,60,60,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:02.40,Hook,,0,0,0,,{\fad(120,100)\t(0,160,\fscx100\fscy100)\fscx88\fscy88}INI {\c&H00E5FF&}CONTOH{\c&HFFFFFF&} CLIP
+Dialogue: 0,0:00:02.60,0:00:05.00,Hook,,0,0,0,,{\fad(120,100)}DIPOTONG, DIJADIIN {\c&H00E5FF&}9:16
+Dialogue: 0,0:00:05.20,0:00:08.00,Hook,,0,0,0,,{\fad(120,100)}{\c&H00E5FF&}SUBTITLE{\c&HFFFFFF&} DIBURN LANGSUNG
+Dialogue: 0,0:00:08.20,0:00:11.00,Hook,,0,0,0,,{\fad(120,100)}JALAN DI {\c&H00E5FF&}SERVER SENDIRI
+Dialogue: 0,0:00:11.20,0:00:13.80,Hook,,0,0,0,,{\fad(120,100)}TANPA {\c&H00E5FF&}JASA LUAR
+Dialogue: 0,0:00:00.60,0:00:13.80,Top,,0,0,0,,{\fad(200,200)}label kecil di atas, gaya Top
